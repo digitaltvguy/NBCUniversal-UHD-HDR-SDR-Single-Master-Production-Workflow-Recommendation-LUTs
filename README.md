@@ -10,7 +10,9 @@ NBCU has a commitment to industry collaboration and would like to encourage cons
   
 The package of NBCU LUTs with additional documentation are available at the following link:  
  
-Link to NBCU Single-Stream Recommendation: https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS
+Link to NBCU Single-Stream Recommendation:
+Full:  https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS
+Short: https://bit.ly/37q2SD5
 
 
 Chris Seeger and Michael Drazin are happy to answer questions pertaining to this effort and provide further insight into workflow.  
