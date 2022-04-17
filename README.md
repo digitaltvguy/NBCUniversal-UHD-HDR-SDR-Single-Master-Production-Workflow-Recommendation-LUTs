@@ -8,9 +8,7 @@
   
 <p>NBCU has a commitment to industry collaboration and would like to encourage consistent media exchange, therefore we are willing to provide the NBCU LUTs freely. The NBCU LUTs are provided on an “as is” basis with no warranties.</p>
   
-<p>The package of NBCU LUTs with additional documentation are available at the following link:</p>
- 
-<p>Links to NBCU Single-Stream Recommendation:</p>
+<p>The package of NBCU LUTs with additional documentation are available at the following links:</p>   
 
 [Click here for full Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS).  
 [Click here for short Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://bit.ly/37q2SD5)
