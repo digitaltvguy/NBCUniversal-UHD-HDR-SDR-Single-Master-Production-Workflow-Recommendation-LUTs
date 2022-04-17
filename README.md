@@ -12,8 +12,8 @@
  
 <p>Links to NBCU Single-Stream Recommendation:</p>
 
-[Full Link: ](https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS)
-[Short Link:](https://bit.ly/37q2SD5)
+[Click here for full Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS).  
+[Click here for short Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://bit.ly/37q2SD5)
 
 
 <p>Chris Seeger and Michael Drazin are happy to answer questions pertaining to this effort and provide further insight into workflow.</p>
