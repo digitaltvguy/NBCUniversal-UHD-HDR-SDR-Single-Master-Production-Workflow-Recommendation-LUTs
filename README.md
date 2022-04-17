@@ -10,10 +10,10 @@
   
 <p>The package of NBCU LUTs with additional documentation are available at the following link:</p>
  
-<p>Link to NBCU Single-Stream Recommendation:</p>
+<p>Links to NBCU Single-Stream Recommendation:</p>
 
-[I'm an inline-style link with title](https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS)
-[I'm an inline-style link with title](https://bit.ly/37q2SD5)
+[Full Link: ](https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS)
+[Short Link:](https://bit.ly/37q2SD5)
 
 
 <p>Chris Seeger and Michael Drazin are happy to answer questions pertaining to this effort and provide further insight into workflow.</p>
