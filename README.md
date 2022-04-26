@@ -18,7 +18,6 @@ In collaboration with MovieLabs, we are also including their LUTs for PQ-to-HLG 
 
 <p>Chris Seeger and Michael Drazin are happy to answer questions pertaining to this effort and provide further insight into workflow.</p>
 
-![image](https://user-images.githubusercontent.com/1738616/165218334-de257ccf-c6a8-4f72-8dac-5790ea1c47b9.png)
- 
- 
+![image](https://user-images.githubusercontent.com/1738616/165218550-df855262-18f2-4744-a81c-e690a74999f6.png)
+  
 <p>We ask that manufactures include an acknowledgment in their license to their customers that the LUTs were “developed by NBCUniversal Media, LLC.”</p>
