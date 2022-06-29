@@ -15,6 +15,7 @@ In collaboration with MovieLabs, we are also including their LUTs for PQ-to-HLG 
 [Click here for full Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://github.com/digitaltvguy/NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS).  
 [Click here for short Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://bit.ly/37q2SD5)
 
+<p>We have recently added new ICC profiles based on ICC.1:2022 (Profile version 4.4.0.0) which allow signaling of HDR and SDR in still graphics</p>
 
 <p>Chris Seeger and Michael Drazin are happy to answer questions pertaining to this effort and provide further insight into workflow.</p>
 
