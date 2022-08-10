@@ -1,4 +1,4 @@
-# NBCU-HDR-SDR-Single-Stream_Workflow_Recommendation_and_LUTS for Public Distribution
+# NBCU UHD-HDR-SDR "Single-Master" Production Workflow Recommendation & LUTS for Public Distribution
 
 <p>NBCUniversal, LLC, in collaboration with Cromorama/Nick Shaw, and building on ITU working group discussions for HDR operational practices involving Dolby, BBC and Philips, has developed techniques to enable “single-stream” production that feeds both UHD HDR and SDR transmission simultaneously.</p> 
  
