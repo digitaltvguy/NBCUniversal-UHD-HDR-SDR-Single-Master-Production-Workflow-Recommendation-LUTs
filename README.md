@@ -12,7 +12,7 @@
   
 <p>Bookmark a link to the NBCU Single-Stream Recommendation here:</p>   
 
-[Click here for full Link to NBCU Single-Master HDR-SDR Technical Recommendation](https://github.com/digitaltvguy/NBCUniversal-UHD-HDR-SDR-Single-Master-Production-Workflow-Recommendation-LUTs).  
+[Click here for full Link to NBCU Single-Master HDR-SDR Technical Recommendation and LUTs](https://github.com/digitaltvguy/NBCUniversal-UHD-HDR-SDR-Single-Master-Production-Workflow-Recommendation-LUTs).  
 [Click here for short Link to NBCU Single-Stream HDR-SDR Technical Recommendation](https://bit.ly/3KOZS2e)
 
 <p>We have recently added new ICC profiles based on ICC.1:2022 (Profile version 4.4.0.0) which allow signaling of HDR and SDR in still graphics</p>
