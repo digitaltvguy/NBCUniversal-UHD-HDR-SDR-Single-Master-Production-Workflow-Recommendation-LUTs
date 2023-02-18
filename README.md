@@ -19,9 +19,7 @@
 
 <p>Chris Seeger and Michael Drazin are happy to answer questions pertaining to this effort and provide further insight into workflow.</p>
 
-Chris Seeger - chris.seeger@nbcuni.com
-
-Michael Drazin - michael@drazin.tv
+![Email](sig.png)
 
   
 <p>We ask that manufactures include "NBCU" in the file/conversion name of each LUT and contain an acknowledgment in the license to their customers that the LUTs were “developed by NBCUniversal Media, LLC".  They are distributed publicly and freely without warranty on an “as is” basis in an effort to encourage UHD Single-Master HDR-SDR production with consistent media exchange”.</p>
