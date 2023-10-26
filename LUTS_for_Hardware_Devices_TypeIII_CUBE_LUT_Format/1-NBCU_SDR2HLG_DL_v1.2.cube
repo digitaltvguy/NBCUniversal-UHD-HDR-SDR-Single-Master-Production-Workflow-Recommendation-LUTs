@@ -2,9 +2,10 @@ TITLE "SDR-BT.709 to HLG-BT.2100 Display-Light Conversion 3D Look-Up-Table"
 
 # PLEASE DO NOT ALTER THE LINES BELOW
 # 
-# © 2020 NBCUniversal, LLC - Please do not remove this line
+# Copyright 2023 NBCUniversal, LLC - Please do not remove this line
 #
 # Version 1.1 (fix for negative values)
+# Version 1.2 (fix for unicode character which was preventing loading in some devices)
 #
 # Built using tools from and in collaboration with Cromorama and Nick Shaw - the creators of ORION-CONVERT
 #

@@ -2,7 +2,9 @@ TITLE "SDR-BT.709 to PQ-BT.2100 Display-Light Conversion 3D Look-Up-Table"
 
 # PLEASE DO NOT ALTER THE LINES BELOW
 # 
-# © 2020 NBCUniversal, LLC - Please do not remove this line
+# Copyright 2023 NBCUniversal, LLC - Please do not remove this line
+#
+# Version 1.2 (fix for unicode character which was preventing loading in some devices)
 #
 # Built using tools from and in collaboration with Cromorama and Nick Shaw - the creators of ORION-CONVERT
 #
@@ -18,6 +20,11 @@ TITLE "SDR-BT.709 to PQ-BT.2100 Display-Light Conversion 3D Look-Up-Table"
 #
 # Type III LUT - Full Range Processing for Narrow Range Signals
 # Unscaled code values in and out
+
+# RESOLVE 17 VIDEO RANGE TAGS
+LUT_IN_VIDEO_RANGE
+LUT_OUT_VIDEO_RANGE
+
 
 
 LUT_3D_SIZE 33

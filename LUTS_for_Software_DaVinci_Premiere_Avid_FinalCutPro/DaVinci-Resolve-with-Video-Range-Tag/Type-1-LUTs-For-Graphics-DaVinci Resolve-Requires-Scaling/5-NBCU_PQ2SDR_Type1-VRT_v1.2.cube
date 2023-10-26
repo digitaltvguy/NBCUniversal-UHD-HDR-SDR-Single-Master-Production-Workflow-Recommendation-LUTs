@@ -2,10 +2,14 @@ TITLE "NBCU PQ-to-SDR For Graphics"
 
 TITLE "PQ-BT.2100 to SDR-BT.709 Display-Light Conversion 3D Look-Up-Table"
 
+# Narrow Range IRE in and out
+
 #
 # PLEASE DO NOT ALTER THE LINES BELOW
 # 
-# © 2020 NBCUniversal, LLC - Please do not remove this line
+# Copyright 2023 NBCUniversal, LLC - Please do not remove this line
+#
+# Version 1.2 (fix for unicode character which was preventing loading in some devices)
 #
 # Built using tools from and in collaboration with Cromorama and Nick Shaw - the creators of ORION-CONVERT
 #
@@ -21,13 +25,16 @@ TITLE "PQ-BT.2100 to SDR-BT.709 Display-Light Conversion 3D Look-Up-Table"
 # For Graphics Output, scale LUT Output from Narrow to Full range
 
 
+# RESOLVE 17 VIDEO RANGE TAGS
+LUT_IN_VIDEO_RANGE
+LUT_OUT_VIDEO_RANGE
 
-
-
-
-TITLE "Peacock PQ to SDR"
 # IRE in and out
+
+
 LUT_3D_SIZE 33
+
+
 0.0000000 0.0000000 0.0000000
 0.0273492 -0.0092948 -0.0041660
 0.0519946 -0.0176707 -0.0079201
