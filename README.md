@@ -14,7 +14,7 @@
 
 [Click here for full Link to NBCU Single-Master HDR-SDR Technical Recommendation and LUTs](https://github.com/digitaltvguy/NBCUniversal-UHD-HDR-SDR-Single-Master-Production-Workflow-Recommendation-LUTs).  
 
-<p>You can read the document by clicking on the peacock: <a href="https://www.dropbox.com/s/xihqzwdkuizq7v0/NBCU%20Single-Master%20UHD-HDR-SDR%20Production-Distribution%20and%20LUTs.pdf" target="_blank">NBCU HDR Live Single-Master Workflow </p>
+<p>You can read the workflow documentation and download it in PDF here: <a href="https://www.dropbox.com/s/xihqzwdkuizq7v0/NBCU%20Single-Master%20UHD-HDR-SDR%20Production-Distribution%20and%20LUTs.pdf" target="_blank">NBCU HDR Live Single-Master Workflow </p>
 
 
 <p>We have recently added new ICC profiles based on ICC.1:2022 (Profile version 4.4.0.0) which allow signaling of HDR and SDR in still graphics</p>
