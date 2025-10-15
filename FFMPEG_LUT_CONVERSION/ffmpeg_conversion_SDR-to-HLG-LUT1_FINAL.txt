@@ -1,0 +1,37 @@
+/opt/homebrew/bin/ffmpeg -i "<FILE PATH INPUT>" \
+-vf "zscale=primariesin=bt709:transferin=bt709:matrixin=bt709:rangein=limited:primaries=bt709:transfer=bt709:range=full,format=gbrpf32le,\
+geq=\
+red_expr='((r(X,Y)+0.073059)/1.167808)*0.998+0.001':\
+green_expr='((g(X,Y)+0.073059)/1.167808)*0.998+0.001':\
+blue_expr='((b(X,Y)+0.073059)/1.167808)*0.998+0.001',\
+lut3d=file='<TYPE III LUT FILE PATH INPUT>.cube':interp=tetrahedral,\
+geq=\
+red_expr='((r(X,Y)-0.001)/0.998)*1.167808-0.073059':\
+green_expr='((g(X,Y)-0.001)/0.998)*1.167808-0.073059':\
+blue_expr='((b(X,Y)-0.001)/0.998)*1.167808-0.073059',\
+zscale=primariesin=bt2020:transferin=arib-std-b67:matrixin=bt2020nc:rangein=limited:primaries=bt2020:transfer=arib-std-b67:matrix=bt2020nc:range=limited:dither=error_diffusion,\
+format=yuv422p10le" \
+-an -dn -sn -codec:v v210 \
+-color_primaries bt2020 -color_trc arib-std-b67 -colorspace bt2020nc -color_range tv \
+-movflags +write_colr \
+"<FILE PATH OUTPUT>"
+
+
+# geq equations reconciled
+/opt/homebrew/bin/ffmpeg -i "<FILE PATH INPUT>" \
+-vf "zscale=primariesin=bt709:transferin=bt709:matrixin=bt709:rangein=limited:primaries=bt709:transfer=bt709:range=full,format=gbrpf32le,\
+geq=\
+red_expr='r(X,Y)*0.854224375+0.0633849':\
+green_expr='g(X,Y)*0.854224375+0.0633849':\
+blue_expr='b(X,Y)*0.854224375+0.0633849',\
+lut3d=file='<TYPE III LUT FILE PATH>.cube':interp=tetrahedral,\
+geq=\
+red_expr='r(X,Y)*1.1701493-0.0742291':\
+green_expr='g(X,Y)*1.1701493-0.0742291':\
+blue_expr='b(X,Y)*1.1701493-0.0742291',
+zscale=primariesin=bt2020:transferin=arib-std-b67:matrixin=bt2020nc:rangein=limited:primaries=bt2020:transfer=arib-std-b67:matrix=bt2020nc:range=limited:dither=error_diffusion,\
+format=yuv422p10le" \
+-an -dn -sn -codec:v v210 \
+-color_primaries bt2020 -color_trc arib-std-b67 -colorspace bt2020nc -color_range tv \
+-movflags +write_colr \
+"<FILE PATH OUTPUT>"
