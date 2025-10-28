@@ -10,7 +10,7 @@ geq=\
 red_expr='((r(X,Y)-0.001)/0.998)*1.167808-0.073059':\
 green_expr='((g(X,Y)-0.001)/0.998)*1.167808-0.073059':\
 blue_expr='((b(X,Y)-0.001)/0.998)*1.167808-0.073059',\
-zscale=primariesin=bt709:transferin=bt709:matrixin=bt709:rangein=limited:primaries=bt709:transfer=bt709:matrix=bt709:range=limited:dither=error_diffusion,\
+zscale=primariesin=bt709:transferin=bt709:matrixin=bt709:rangein=limited:primaries=bt709:transfer=bt709:matrix=bt709:range=limited:dither=none,\
 format=yuv422p10le" \
 -an -dn -sn -codec:v v210 \
 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv \
@@ -31,7 +31,7 @@ geq=\
 red_expr='r(X,Y)*1.1701493-0.0742291':\
 green_expr='g(X,Y)*1.1701493-0.0742291':\
 blue_expr='b(X,Y)*1.1701493-0.0742291',
-zscale=primariesin=bt709:transferin=bt709:matrixin=bt709:rangein=limited:primaries=bt709:transfer=bt709:matrix=bt709:range=limited:dither=error_diffusion,\
+zscale=primariesin=bt709:transferin=bt709:matrixin=bt709:rangein=limited:primaries=bt709:transfer=bt709:matrix=bt709:range=limited:dither=none,\
 format=yuv422p10le" \
 -an -dn -sn -codec:v v210 \
 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -color_range tv \
